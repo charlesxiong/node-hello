@@ -2,7 +2,7 @@
 FROM dockerfile/nodejs
 
 # Install Yo & Bower & Grunt 
-RUN npm install -g yo bower grunt0cli
+RUN npm install -g yo bower gruntcli
 
 #App
 ADD . /src
